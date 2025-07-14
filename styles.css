@@ -16,9 +16,9 @@ body {
   padding: 20px;
 }
 
-/* Image Styling (optional - can be removed if not needed) */
+
 .img {
-  display: none; /* Hide background image unless required */
+  display: none; 
 }
 
 /* Main Card */
