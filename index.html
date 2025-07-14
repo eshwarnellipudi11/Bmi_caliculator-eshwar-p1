@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BMI Caliculator BY Eshwar</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="box">
+      <h1>BMI Caliculator</h1>
+      <div class="header-container">
+        <form class="bmi-form">
+          <input type="text" required placeholder="Enter your name" id="name" />
+
+          <input
+            type="number"
+            placeholder="Enter your height (cm)"
+            id="height"
+            required
+          />
+
+          <input
+            type="number"
+            placeholder="Enter your weight (kg)"
+            id="weight"
+            required
+          />
+          <button class="bmi-button" id="bmi-calculate">Calculate</button>
+          <button class="bmi-button red" id="reset">Reset</button>
+          <p id="result"></p>
+        </form>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
